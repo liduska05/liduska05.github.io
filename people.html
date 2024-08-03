@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kozlyatyn</title>
+    <title>Cool Dudes</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&display=swap" rel="stylesheet">
@@ -12,7 +12,7 @@
 
 <body>
     <div class="wrapper">
-        <div class="content">
+        <div class="content content-mp">
             <header class="header">
                 <div class="container">
                     <div class="header-inner">
@@ -20,13 +20,24 @@
                         <div class="name">Козятин</div>       
                         <nav>
                             <ul>
+                                <li><a href="index.html">Головна</a></li>
                                 <li><a href="misto.html">Про місто</a></li>
-                                <li><a href="people.html">Видатні люди</a></li>
+                                <li><a href="people.html" class="active">Видатні люди</a></li>
                             </ul>         
                         </nav>  
                     </div>
                 </div>
             </header>
+            <section class="main">
+                <h6>я не знаю видатних людей Козятина крім своєї мами і тата ^-^</h6>
+                
+                <div class="special">
+                    <img src="img/evil.jpg" alt="evil" id="evil" class="evil">
+                    <button id="btn" class="btn">don't touch this button</button>
+                    <p id="error" class="error">( but if you wanna know what the real evil is...)</p>
+                </div>
+               
+            </section>
         </div>
         <footer class="footer">
             <div class="container">
@@ -36,5 +47,7 @@
             </div>
         </footer>
     </div>
+
+    <script src="index.js"></script>
 </body>
 </html>
